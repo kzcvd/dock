@@ -1,0 +1,7 @@
+@import "mixins";
+
+@include font('roboto', normal, 400, '../fonts/roboto-regular-webfont.woff2');
+@include font('roboto', italic, 400, '../fonts/roboto-italic-webfont.woff2');
+@include font('roboto', normal, 700, '../fonts/roboto-bold-webfont.woff2');
+@include font('roboto', italic, 700, '../fonts/roboto-bolditalic-webfont.woff2');
+@include font('kalam-v11-latin', bold, 700, '../fonts/kalam-v11-latin/kalam-v11-latin-700.woff2');

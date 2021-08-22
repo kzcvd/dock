@@ -1,0 +1,54 @@
+// USER VARIABLES SECTION
+
+// Bootstrap settings
+$grid-gutter-width: 30px;
+$gutter: $grid-gutter-width;
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+) !default;
+
+$accent: orange; // Accent Color
+$font-size: 16px; // Body Font Size
+$text-color: #333; // Text Color
+$line-height: 1.65; // Document Line Height
+$user-font: roboto, sans-serif; // User Font Family
+
+// GENERAL DOCUMENT STYLES
+
+::placeholder {
+  color: #666;
+}
+
+::selection {
+  color: #fff;
+  background-color: $accent;
+}
+
+input,
+textarea {
+  outline: none;
+
+  &:required:valid {
+    border-color: green;
+  }
+
+  &:focus:required:invalid {
+    border-color: red;
+  }
+}
+
+body {
+  position: relative;
+  min-width: 320px;
+  margin: 0;
+  overflow-x: hidden;
+  color: $text-color;
+  font-size: $font-size;
+  font-family: $user-font;
+  line-height: $line-height;
+}

@@ -1,0 +1,56 @@
+{
+	"name": "Starter",
+	"version": "1.0.0",
+	"description": "Starter - Lightweight Gulp Starter",
+	"main": "index.js",
+	"author": "WebDesign Master",
+	"contributors": [
+		"kzcvd <https://github.com/kzcvd>"
+	],
+	"type": "module",
+	"browserslist": [
+		"last 10 versions"
+	],
+	"license": "ISC",
+	"scripts": {
+		"start": "gulp",
+		"build": "gulp build",
+		"stylelint": "stylelint './app/styles/**/*.scss'"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.15.0",
+		"@babel/preset-env": "^7.15.0",
+		"autoprefixer": "^10.3.1",
+		"babel-loader": "^8.2.2",
+		"babel-plugin-module-resolver": "^4.1.0",
+		"babel-plugin-root-import": "^6.6.0",
+		"bootstrap": "^5.1.0",
+		"browser-sync": "^2.27.5",
+		"browsersync-ssi": "^0.2.4",
+		"cssnano": "^5.0.8",
+		"del": "^6.0.0",
+		"eslint": "^7.32.0",
+		"eslint-config-airbnb-base": "^14.2.1",
+		"eslint-plugin-import": "^2.24.1",
+		"gulp": "^4.0.2",
+		"gulp-changed": "^4.0.3",
+		"gulp-imagemin": "^8.0.0",
+		"gulp-less": "^5.0.0",
+		"gulp-less-glob": "^1.0.0",
+		"gulp-noop": "^1.0.1",
+		"gulp-postcss": "^9.0.0",
+		"gulp-rename": "^2.0.0",
+		"gulp-rsync": "0.0.9",
+		"gulp-sass": "^5.0.0",
+		"gulp-sass-glob": "^1.1.0",
+		"gulp-stylus": "^2.7.0",
+		"husky": "^4.2.5",
+		"postcss": "^8.3.6",
+		"sass": "^1.38.0",
+		"stylelint": "^13.13.1",
+		"stylelint-config-rational-order": "^0.1.2",
+		"stylelint-config-standard": "^22.0.0",
+		"stylelint-scss": "^3.20.1",
+		"webpack-stream": "^6.1.2"
+	}
+}
