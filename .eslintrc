@@ -1,0 +1,41 @@
+{
+  "extends": [
+    "airbnb-base"
+  ],
+  "rules": {
+    "no-new": "off",
+    "no-underscore-dangle": "off",
+    "no-param-reassign": ["error", {
+      "props": false
+    }],
+    "no-console": ["warn", {
+      "allow": ["error"]
+    }],
+    "import/no-unresolved": "off",
+    "import/no-extraneous-dependencies": "off",
+    "import/extensions": ["error", {
+      "js": "never",
+      "json": "always"
+    }],
+    "import/order": ["error", {
+      "groups": [
+        "builtin",
+        "external",
+        "internal"
+      ]
+    }]
+  },
+  "settings": {
+    "ecmascript": 6
+  },
+  "globals": {},
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "parser": "babel-eslint",
+    "sourceType": "module"
+  },
+  "plugins": ["import"]
+}
